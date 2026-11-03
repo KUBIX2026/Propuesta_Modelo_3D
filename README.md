@@ -1,5 +1,7 @@
 # 🎮 PRISMA-4X: Consola Retro Multidimensional (Propuesta Abierta)
 
+![Portada](Propuesta_Modelo_3D/PortadaPropuesta.png)
+
 **Estado:** 🟡 En Revisión por el Equipo | **Fase:** 1 (Modelado Conceptual)
 
 Este documento presenta una propuesta arquitectónica y de diseño inicial para la nueva consola de videojuegos. El objetivo de este repositorio es proporcionar el primer modelo 3D conceptual (carcasa externa y distribución espacial) para que todos los miembros del grupo puedan inspeccionarlo, proponer modificaciones y llegar a un acuerdo técnico antes de pasar a la fase de prototipado físico e integración electrónica.
@@ -13,9 +15,12 @@ El primer activo subido a este repositorio es la carcasa conceptual. Se trata de
 ### Especificaciones del Chasis y Conectividad
 *   **Factor de Forma:** Prisma rectangular en formato torre.
 *   **Puertos de Entrada (I/O):** Integración de conectores *legacy* físicos ubicados en la base o paneles inferiores.
-    *   Puertos para mandos de PlayStation 2 (PS2).
+    *   Puertos para raton o teclado (PS2).
     *   Puertos para mandos de Nintendo Entertainment System (NES).
 
+![Chasis](Propuesta_Modelo_3D/Modelo_Carcasa_Completo.stl)
+![Chasis](Propuesta_Modelo_3D/Modelo_Carcasa_Base.stl)
+![Chasis](Propuesta_Modelo_3D/Modelo_Carcasa_Soporte.stl)
 ---
 
 ## 🖥️ Arquitectura de Pantallas (Configuración por Cara)
@@ -65,3 +70,6 @@ Para avanzar a la siguiente etapa de diseño (ubicación de componentes internos
 1.  **Visualizar el Modelo:** Navegar a la carpeta `/models/` y hacer clic en el archivo `.stl` para utilizar el visor 3D integrado en GitHub (rotación en 360°).
 2.  **Validar Proporciones:** Verificar visualmente si la distribución de las dos pantallas por cara (192mm y 128x32mm) es ergonómica y estéticamente funcional.
 3.  **Feedback:** Abran un *Issue* en este repositorio con sugerencias de modificación (ej. ubicación de los puertos PS2/NES, ventilación) o dejen su aprobación en los comentarios de este documento para unificar criterios.
+
+
+[def]: Pro
