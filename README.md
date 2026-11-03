@@ -32,6 +32,8 @@ El esqueleto o estructura interna de montaje. Es una pieza central con diseño d
 ![Chasis Base](Propuesta_Modelo_3D/Modelo_Carcasa_Base.stl)
 
 Esta pieza cuenta con aberturas rectangulares en sus caras laterales estructuradas específicamente para alojar los puertos de los controladores. Además, incorpora un área con un patrón de múltiples perforaciones y una rejilla en la plataforma inferior para asegurar el flujo de aire y la disipación térmica del hardware.
+
+
 ---
 
 
