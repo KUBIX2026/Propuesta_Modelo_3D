@@ -27,6 +27,10 @@ El primer activo subido a este repositorio es la carcasa conceptual. Se trata de
 ![glb](Propuesta_Modelo_3D/Modelo_Carcasa_Completo.glb)
 ---
 
+
+<model-viewer src="Propuesta_Modelo_3D/Modelo_Carcasa_Completo.glb" camera-controls auto-rotate></model-viewer>
+
+
 ## 🖥️ Arquitectura de Pantallas (Configuración por Cara)
 
 El diseño estipula que **cada una de las 4 caras** del prisma contiene un módulo de visualización dual, separando el área de juego de la telemetría (HUD).
