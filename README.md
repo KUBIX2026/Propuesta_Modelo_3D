@@ -18,8 +18,10 @@ El primer activo subido a este repositorio es la carcasa conceptual. Se trata de
     *   Puertos para raton o teclado (PS2).
     *   Puertos para mandos de Nintendo Entertainment System (NES).
 
-![Chasis](Propuesta_Modelo_3D/Modelo_Carcasa_Completo.stl)
+![Chasis completo](Propuesta_Modelo_3D/Modelo_Carcasa_Completo.stl)
+
 ![Chasis](Propuesta_Modelo_3D/Modelo_Carcasa_Base.stl)
+
 ![Chasis](Propuesta_Modelo_3D/Modelo_Carcasa_Soporte.stl)
 ---
 
