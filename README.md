@@ -47,6 +47,8 @@ El diseño estipula que **cada una de las 4 caras** del prisma contiene un módu
 | **Display Principal** | Panel de Juego | 192 mm | 64 x 64 | Renderizado del entorno de juego y acción principal. |
 | **Display Secundario** | Matriz LED | 128 mm (Ancho) x 32 mm (Alto) | 8 x 32 | Indicadores de vida, salud e información complementaria (HUD). |
 
+
+![Pantalla HUB75](Propuesta_Modelo_3D/Panel_Pantalla.gif)
 ---
 
 ## ⚙️ Esquema de Hardware (Draft Técnico)
@@ -59,7 +61,7 @@ dispositivo:
     geometria: "Prisma Rectangular"
     caras_activas: 4
   interfaces_perifericos:
-    - tipo: "DualShock 2 (PS2)"
+    - tipo: "(PS2)"
       estado: "Requerido"
     - tipo: "NES Controller"
       estado: "Requerido"
@@ -76,6 +78,8 @@ dispositivo:
       matriz: "8x32"
       datos_asignados: ["Vida", "Salud", "Info Complementaria"]
 ```
+![Puertos con PS2 ,Nes y bafle ](Propuesta_Modelo_3D/Panel_Frontal_Con_Puertos.gif)
+
 
 ---
 
