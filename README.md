@@ -1,4 +1,4 @@
-#  Consola Retro Multidimensional (Propuesta Abierta)
+#  MODEL_3D (Propuesta Abierta)
 
 ![Portada](Propuesta_Modelo_3D/PortadaPropuesta.png)
 
