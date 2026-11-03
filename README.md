@@ -26,7 +26,7 @@ El primer activo subido a este repositorio es la carcasa conceptual. Se trata de
 
 ![glb](Propuesta_Modelo_3D/Modelo_Carcasa_Completo.glb)
 ---
-
+[🎮 Haz clic aquí para abrir y girar el Modelo 3D de la Consola](./Propuesta_Modelo_3D/Modelo_Carcasa_Completo.glb)
 
 <model-viewer src="Propuesta_Modelo_3D/Modelo_Carcasa_Completo.glb" camera-controls auto-rotate></model-viewer>
 
