@@ -23,6 +23,8 @@ El primer activo subido a este repositorio es la carcasa conceptual. Se trata de
 ![Chasis](Propuesta_Modelo_3D/Modelo_Carcasa_Base.stl)
 
 ![Chasis](Propuesta_Modelo_3D/Modelo_Carcasa_Soporte.stl)
+
+![glb](Propuesta_Modelo_3D/Modelo_Carcasa_Completo.glb)
 ---
 
 ## 🖥️ Arquitectura de Pantallas (Configuración por Cara)
