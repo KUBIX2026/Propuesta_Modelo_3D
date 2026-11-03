@@ -1,4 +1,4 @@
-# 🎮 PRISMA-4X: Consola Retro Multidimensional (Propuesta Abierta)
+#  Consola Retro Multidimensional (Propuesta Abierta)
 
 ![Portada](Propuesta_Modelo_3D/PortadaPropuesta.png)
 
@@ -8,7 +8,7 @@ Este documento presenta una propuesta arquitectónica y de diseño inicial para 
 
 ---
 
-## 📐 Resumen del Modelo 3D Base
+## Resumen del Modelo 3D Base
 
 El primer activo subido a este repositorio es la carcasa conceptual. Se trata de un **prisma rectangular** diseñado para ofrecer una experiencia multijugador simultánea y omnidireccional, albergando hardware de visualización independiente en cada una de sus cuatro caras laterales.
 
@@ -18,15 +18,22 @@ El primer activo subido a este repositorio es la carcasa conceptual. Se trata de
     *   Puertos para raton o teclado (PS2).
     *   Puertos para mandos de Nintendo Entertainment System (NES).
 
-![Chasis completo](Propuesta_Modelo_3D/)
+![Chasis Completo](Propuesta_Modelo_3D/Caracasa_Completo.gif)
+![Chasis Completo](Propuesta_Modelo_3D/Modelo_Carcasa_Completo.stl)
 
-![Chasis](Propuesta_Modelo_3D/Modelo_Carcasa_Base.stl)
+Se observa la estructura externa perimetral, que incluye el panel superior con ranuras de ventilación y los amplios marcos en las cuatro caras diseñados para alojar las pantallas. En el interior se aprecia cómo se integra el esqueleto de soporte central con el armazón externo y la base inferior, mostrando el perfil completo del dispositivo armado.
 
-![Chasis](Propuesta_Modelo_3D/Modelo_Carcasa_Soporte.stl)
+![Chasis Soporte](Propuesta_Modelo_3D/Carcasa_Soporte.gif)
+![Chasis Soporte](Propuesta_Modelo_3D/Modelo_Carcasa_Soporte.stl)
 
-![glb](Propuesta_Modelo_3D/Modelo_Carcasa_Completo.glb)
+El esqueleto o estructura interna de montaje. Es una pieza central con diseño de pilares y travesaños que se encarga de sujetar y alinear los componentes electrónicos, proporcionando la rigidez principal a todo el ensamblaje. Se muestra montada directamente sobre el módulo base para ilustrar su posición estructural dentro del sistema
+
+![Chasis Base](Propuesta_Modelo_3D/Caracasa_Base.gif)
+![Chasis Base](Propuesta_Modelo_3D/Modelo_Carcasa_Base.stl)
+
+Esta pieza cuenta con aberturas rectangulares en sus caras laterales estructuradas específicamente para alojar los puertos de los controladores. Además, incorpora un área con un patrón de múltiples perforaciones y una rejilla en la plataforma inferior para asegurar el flujo de aire y la disipación térmica del hardware.
 ---
-[🎮 Haz clic aquí para abrir y girar el Modelo 3D de la Consola](./Propuesta_Modelo_3D/Modelo_Carcasa_Completo.glb)
+
 
 <model-viewer src="Propuesta_Modelo_3D/Modelo_Carcasa_Completo.glb" camera-controls auto-rotate></model-viewer>
 
@@ -46,7 +53,7 @@ El diseño estipula que **cada una de las 4 caras** del prisma contiene un módu
 
 ```yaml
 dispositivo:
-  nombre_proyecto: "PRISMA-4X"
+  nombre_proyecto: "Video_Consola"
   tipo: "Video Consola Multipantalla"
   carcasa:
     geometria: "Prisma Rectangular"
@@ -58,10 +65,12 @@ dispositivo:
       estado: "Requerido"
   display_por_cara:
     principal_gameplay:
+      tipo :  "HUB75"
       tecnologia: "Matriz RGB"
-      tamano_mm: 192
+      tamano_mm: 192 x 192
       matriz: "64x64"
     secundario_telemetria:
+      tipo : "MAX7219"
       tecnologia: "Módulo Matriz LED"
       dimensiones_mm: [128, 32]
       matriz: "8x32"
@@ -72,12 +81,10 @@ dispositivo:
 
 ## 🤝 Proceso de Revisión y Consenso
 
-Para avanzar a la siguiente etapa de diseño (ubicación de componentes internos y modelado de ensamblaje), requerimos el visto bueno del equipo basándonos en este modelo 3D preliminar.
+Para avanzar a la siguiente etapa de diseño (ubicación de componentes internos y modelado de ensamblaje).
 
 **Acciones requeridas por el equipo:**
 1.  **Visualizar el Modelo:** Navegar a la carpeta `/models/` y hacer clic en el archivo `.stl` para utilizar el visor 3D integrado en GitHub (rotación en 360°).
 2.  **Validar Proporciones:** Verificar visualmente si la distribución de las dos pantallas por cara (192mm y 128x32mm) es ergonómica y estéticamente funcional.
 3.  **Feedback:** Abran un *Issue* en este repositorio con sugerencias de modificación (ej. ubicación de los puertos PS2/NES, ventilación) o dejen su aprobación en los comentarios de este documento para unificar criterios.
 
-
-[def]: Pro
