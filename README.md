@@ -109,7 +109,7 @@ Como se Muestra en las respectivas imágenes tiende hacer un poco mas pequeño y
 
 Estos modelos se encuentran en el siguiente carpeta, en adicional se encuentra la nueva forma del display.
 
-[**📁 Abrir carpeta: Modelo V2**](./Propuesta_Modelo_3D/Modelo%20V2/)
+[**📁 Abrir carpeta: Modelo V2**](https://github.com/KUBIX2026/Propuesta_Modelo_3D/tree/main/Propuesta_Modelo_3D/Modelo_V2)
 
 
 | ![Puertos con PS2 ,Nes y bafle ](Propuesta_Modelo_3D/Modelo_V2/Modelos_Animados/Display_A.png) | ![Puertos con PS2 ,Nes y bafle ](Propuesta_Modelo_3D/Modelo_V2/Modelos_Animados/Display_B.png) |
