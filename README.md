@@ -99,6 +99,8 @@ El cambio del modelo cambio algunas dimensiones del aparato principalmente la ca
 | **Display Secundario** | Matriz LED       | 32 mm                         | 8 x 8               | Indicadores de niveles.                                        |
 
 ![Puertos con PS2 ,Nes y bafle ](Propuesta_Modelo_3D/Modelo_V2/Modelos_Animados/Ensamblaje_Completo.obj)
+
+
 ![Puertos con PS2 ,Nes y bafle ](Propuesta_Modelo_3D/Modelo_V2/Modelos_Animados/Ensamblaje_Completo.stl)
 
 Como se Muestra en las respectivas imágenes tiende hacer un poco mas pequeño y de esta maneras podemos organizar de mejor manera  el apartado interno, en adicional podemos ver que estructural mente la parte naranja es falsa.
