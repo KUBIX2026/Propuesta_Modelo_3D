@@ -85,6 +85,59 @@ dispositivo:
 
 ---
 
+## Version de los modelos #2
+
+La razón de los modelos se debe principalmente a con respecto al cambio de las dimensiones de la pantallas donde en este caso se da un modelo llamado P2.
+
+El cambio del modelo cambio algunas dimensiones del aparato principalmente la carcasa externa y la agregar una mejor zona para colocar el display Terciario.
+
+
+| Módulo                 | Tipo de Pantalla | Dimensiones Físicas           | Resolución / Matriz | Función Principal                                              |
+| :--------------------- | :--------------- | :---------------------------- | :------------------ | :------------------------------------------------------------- |
+| **Display Principal**  | Panel de Juego   | 128 mm                        | 64 x 64             | Renderizado del entorno de juego y acción principal.           |
+| **Display Secundario** | Matriz LED       | 128 mm (Ancho) x 32 mm (Alto) | 8 x 32              | Indicadores de vida, salud e información complementaria (HUD). |
+| **Display Secundario** | Matriz LED       | 32 mm                         | 8 x 8               | Indicadores de niveles.                                        |
+
+![Puertos con PS2 ,Nes y bafle ](Propuesta_Modelo_3D/Modelo_V2/Modelos_Animados/Ensamblaje_Completo.obj)
+![Puertos con PS2 ,Nes y bafle ](Propuesta_Modelo_3D/Modelo_V2/Modelos_Animados/Ensamblaje_Completo.stl)
+
+Como se Muestra en las respectivas imágenes tiende hacer un poco mas pequeño y de esta maneras podemos organizar de mejor manera  el apartado interno, en adicional podemos ver que estructural mente la parte naranja es falsa.
+
+| ![Puertos con PS2 ,Nes y bafle ](Propuesta_Modelo_3D/Modelo_V2/Modelos_Animados/Armado_Completo.png)        | ![Puertos con PS2 ,Nes y bafle ](Propuesta_Modelo_3D/Modelo_V2/Modelos_Animados/Armado_Interno.png) | ![Puertos con PS2 ,Nes y bafle ](Propuesta_Modelo_3D/Modelo_V2/Modelos_Animados/Armado_Soporte_Pantallas.png)          |
+| ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| ![Puertos con PS2 ,Nes y bafle ](Propuesta_Modelo_3D/Modelo_V2/Modelos_Animados/Armado_Soporte_General.png) | ![Puertos con PS2 ,Nes y bafle ](Propuesta_Modelo_3D/Modelo_V2/Modelos_Animados/Armado_Base.png)    | ![Puertos con PS2 ,Nes y bafle ](Propuesta_Modelo_3D/Modelo_V2/Modelos_Animados/Armado_Base_inferior_Dispositivos.png) |
+
+Estos modelos se encuentran en el siguiente carpeta, en adicional se encuentra la nueva forma del display.
+
+[**📁 Abrir carpeta: Modelo V2**](./Propuesta_Modelo_3D/Modelo%20V2/)
+
+
+| ![Puertos con PS2 ,Nes y bafle ](Propuesta_Modelo_3D/Modelo_V2/Modelos_Animados/Display_A.png) | ![Puertos con PS2 ,Nes y bafle ](Propuesta_Modelo_3D/Modelo_V2/Modelos_Animados/Display_B.png) |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+
+
+
+
+```yaml
+dispositivo:
+  nombre_proyecto: "Video_Consola"
+  tipo: "Video Consola Multipantalla"
+  carcasa:
+    geometria: "Prisma Rectangular"
+    caras_activas: 4
+  interfaces_perifericos:
+    - tipo: "(PS2)"
+      estado: "Requerido"
+    - tipo: "NES Controller"
+      estado: "Requerido"
+  display_por_cara:
+    principal_gameplay:
+      tipo: "HUB75"
+      tecnologia: "Matriz RGB"
+      pitch: "P2"
+      dimensiones_mm: [128, 128]
+      matriz: "64x64"
+```
 ## 🤝 Proceso de Revisión y Consenso
 
 Para avanzar a la siguiente etapa de diseño (ubicación de componentes internos y modelado de ensamblaje).
